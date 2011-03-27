@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # WikiText markup
 package IkiWiki::Plugin::wikitext;
 

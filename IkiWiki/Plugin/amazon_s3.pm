@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 package IkiWiki::Plugin::amazon_s3;
 
 use warnings;

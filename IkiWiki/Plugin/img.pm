@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki enhanced image handling plugin
 # Christian Mock cm@tahina.priv.at 20061002
 package IkiWiki::Plugin::img;

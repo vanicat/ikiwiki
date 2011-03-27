@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Copyright © 2009 Simon McVittie <http://smcv.pseudorandom.co.uk/>
 # Licensed under the GNU GPL, version 2, or any later version published by the
 # Free Software Foundation

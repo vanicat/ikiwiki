@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki setup files can be perl files that 'use IkiWiki::Setup::foo',
 # passing it some sort of configuration data. Or, they can contain
 # the module name at the top, without the 'use', and the whole file is

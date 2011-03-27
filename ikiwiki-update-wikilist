@@ -1,4 +1,4 @@
-#!/usr/bin/perl -t
+#!/usr/local/bin/perl -t
 # Add a user to the system wide wikilist.
 # This script can safely be made suid.
 use warnings;

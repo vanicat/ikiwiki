@@ -1,4 +1,4 @@
-#!/usr/bin/perl -i -p
+#!/usr/local/bin/perl -i -p
 
 BEGIN {
 	$prefix=shift;

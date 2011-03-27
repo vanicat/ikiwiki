@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki tag plugin.
 package IkiWiki::Plugin::tag;
 

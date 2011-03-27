@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 package IkiWiki::Plugin::htmlbalance;
 
 # htmlbalance: Parse and re-serialize HTML to ensure balanced tags

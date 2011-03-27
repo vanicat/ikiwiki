@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 package IkiWiki::Plugin::underlay;
 # Copyright © 2008 Simon McVittie <http://smcv.pseudorandom.co.uk/>
 # Licensed under the GNU GPL, version 2, or any later version published by the

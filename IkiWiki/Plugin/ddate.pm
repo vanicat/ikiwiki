@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Discordian date support fnord ikiwiki.
 package IkiWiki::Plugin::ddate;
 

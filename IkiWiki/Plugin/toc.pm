@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Table Of Contents generator
 package IkiWiki::Plugin::toc;
 

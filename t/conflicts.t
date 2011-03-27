@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Tests for bugs relating to conflicting files in the srcdir
 use warnings;
 use strict;

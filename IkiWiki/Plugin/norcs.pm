@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Stubs for no revision control.
 package IkiWiki::Plugin::norcs;
 

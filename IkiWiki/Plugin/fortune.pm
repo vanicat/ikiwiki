@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Include a fortune in a page
 package IkiWiki::Plugin::fortune;
 

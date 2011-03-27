@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # haiku generator plugin
 package IkiWiki::Plugin::haiku;
 

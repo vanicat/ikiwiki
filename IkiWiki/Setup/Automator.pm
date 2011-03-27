@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki setup automator.
 
 package IkiWiki::Setup::Automator;

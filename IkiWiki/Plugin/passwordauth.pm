@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki password authentication.
 package IkiWiki::Plugin::passwordauth;
 

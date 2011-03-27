@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # hnb markup
 # Licensed under the GPL v2 or greater
 # Copyright (C) 2008 by Axel Beckert <abe@deuxchevaux.org>

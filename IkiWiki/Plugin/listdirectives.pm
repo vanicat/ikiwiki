@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki listdirectives plugin.
 package IkiWiki::Plugin::listdirectives;
 

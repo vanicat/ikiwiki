@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # DO NOT CHANGE ANYTHING IN THIS FILE.
 # THe crazy bug reproduced here will go away if any of the calls
 # to htmlize are changed.

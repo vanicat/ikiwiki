@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Munge a git log into log for code_swarm.
 # Deals with oddities of ikiwiki commits, like web commits, and openids.
 use IkiWiki;

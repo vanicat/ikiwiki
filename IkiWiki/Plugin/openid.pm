@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # OpenID support.
 package IkiWiki::Plugin::openid;
 

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Licensed under GPL v2 or greater
 # (c) 2007 Patrick Winnertz <patrick.winnertz@skolelinux.org>
 

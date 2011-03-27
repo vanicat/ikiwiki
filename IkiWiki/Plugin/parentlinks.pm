@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki parentlinks plugin.
 package IkiWiki::Plugin::parentlinks;
 

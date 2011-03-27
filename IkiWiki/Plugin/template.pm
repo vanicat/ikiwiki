@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Structured template plugin.
 package IkiWiki::Plugin::template;
 

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki text colouring plugin
 # Paweł‚ Tęcza <ptecza@net.icm.edu.pl>
 package IkiWiki::Plugin::color;

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Parses list of remotes in doc/git.mdwn, configures git to use them
 # all. After running this, use "git remote update --prune" to pull
 # updates from all remotes.

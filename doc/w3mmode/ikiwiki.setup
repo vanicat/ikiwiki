@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Configuration file for ikiwiki (w3m mode).
 # Passing this to ikiwiki --setup will make ikiwiki generate wrappers and 
 # build the wiki.

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki metadata plugin.
 package IkiWiki::Plugin::meta;
 

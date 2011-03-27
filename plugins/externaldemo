@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Demo external plugin. Kinda pointless, since it's a perl script, but
 # useful for testing or as an hint of how to write an external plugin in
 # other languages.

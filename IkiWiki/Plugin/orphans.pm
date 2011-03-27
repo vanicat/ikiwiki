@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Provides a list of pages no other page links to.
 package IkiWiki::Plugin::orphans;
 

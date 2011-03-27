@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # CamelCase links
 package IkiWiki::Plugin::camelcase;
 

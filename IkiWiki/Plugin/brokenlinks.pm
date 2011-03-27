@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Provides a list of broken links.
 package IkiWiki::Plugin::brokenlinks;
 

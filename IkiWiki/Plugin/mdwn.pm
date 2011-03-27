@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Markdown markup language
 package IkiWiki::Plugin::mdwn;
 

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # xapian-omega search engine plugin
 package IkiWiki::Plugin::search;
 

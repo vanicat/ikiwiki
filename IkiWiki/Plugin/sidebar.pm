@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Sidebar plugin.
 # by Tuomo Valkonen <tuomov at iki dot fi>
 

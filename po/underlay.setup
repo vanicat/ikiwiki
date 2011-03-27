@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Configuration file for ikiwiki that uses the po plugin to build/update
 # po and pot files for pages in the underlays.
 

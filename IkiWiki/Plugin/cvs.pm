@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 package IkiWiki::Plugin::cvs;
 
 # Copyright (c) 2009 Amitai Schlair

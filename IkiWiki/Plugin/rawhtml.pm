@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Copy html files raw.
 package IkiWiki::Plugin::rawhtml;
 

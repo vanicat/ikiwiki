@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # HTTP basic auth plugin.
 package IkiWiki::Plugin::httpauth;
 

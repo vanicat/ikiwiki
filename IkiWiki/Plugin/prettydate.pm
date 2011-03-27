@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 package IkiWiki::Plugin::prettydate;
 use IkiWiki 3.00;
 use warnings;

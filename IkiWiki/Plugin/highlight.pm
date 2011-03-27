@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 package IkiWiki::Plugin::highlight;
 
 # This has been tested with highlight 2.16 and highlight 3.2+svn19.

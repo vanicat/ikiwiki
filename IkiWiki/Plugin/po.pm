@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # .po as a wiki page type
 # Licensed under GPL v2 or greater
 # Copyright (C) 2008-2009 intrigeri <intrigeri@boum.org>

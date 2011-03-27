@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Configuration file for ikiwiki to build its documentation wiki.
 
 # Use git during the build, if it's available and if we're building

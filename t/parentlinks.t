@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # -*- cperl-indent-level: 8; -*-
 # Testcases for the Ikiwiki parentlinks plugin.
 

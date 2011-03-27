@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Feed aggregation plugin.
 package IkiWiki::Plugin::aggregate;
 

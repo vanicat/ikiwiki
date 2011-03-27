@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 use warnings;
 use strict;
 use Test::More tests => 27;

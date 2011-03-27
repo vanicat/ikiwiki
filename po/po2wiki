@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # This program uses the po plugin's internals to convert the po files that
 # it generates back into translated wiki source files that can be used as a
 # underlay for a non-English wiki.

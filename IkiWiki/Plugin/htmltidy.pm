@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # HTML Tidy plugin
 # requires 'tidy' binary, found in Debian or http://tidy.sf.net/
 # mostly a proof-of-concept on how to use external filters.

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # outline markup
 package IkiWiki::Plugin::otl;
 

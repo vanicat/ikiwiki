@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Copyright © 2006-2008 Joey Hess <joey@ikiwiki.info>
 # Copyright © 2008 Simon McVittie <http://smcv.pseudorandom.co.uk/>
 # Licensed under the GNU GPL, version 2, or any later version published by the

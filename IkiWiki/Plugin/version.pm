@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki version plugin.
 package IkiWiki::Plugin::version;
 

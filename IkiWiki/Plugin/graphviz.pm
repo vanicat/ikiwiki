@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # graphviz plugin for ikiwiki: render graphviz source as an image.
 # Josh Triplett
 package IkiWiki::Plugin::graphviz;

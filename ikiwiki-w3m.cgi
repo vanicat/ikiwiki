@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # ikiwiki w3m cgi meta-wrapper
 if (! exists $ENV{PATH_INFO} || ! length $ENV{PATH_INFO}) {
 	die "PATH_INFO should be set";

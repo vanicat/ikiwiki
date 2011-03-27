@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # WikiCreole markup
 # based on the WikiText plugin.
 package IkiWiki::Plugin::creole;

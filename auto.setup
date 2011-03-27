@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki setup automator.
 # 
 # This setup file causes ikiwiki to create a wiki, check it into revision

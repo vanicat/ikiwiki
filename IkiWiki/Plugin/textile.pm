@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # By mazirian; GPL license
 # Textile markup
 

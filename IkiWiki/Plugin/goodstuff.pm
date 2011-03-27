@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Bundle of good stuff.
 package IkiWiki::Plugin::goodstuff;
 

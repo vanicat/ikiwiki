@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Raw html as a wiki page type.
 package IkiWiki::Plugin::html;
 

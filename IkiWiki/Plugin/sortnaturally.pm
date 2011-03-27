@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Sort::Naturally-powered title_natural sort order for IkiWiki
 package IkiWiki::Plugin::sortnaturally;
 

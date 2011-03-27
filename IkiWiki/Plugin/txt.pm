@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # .txt as a wiki page type - links WikiLinks and URIs.
 #
 # Copyright (C) 2008 Gabriel McManus <gmcmanus@gmail.com>

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 
 package IkiWiki::Setup::Standard;
 
@@ -14,7 +14,7 @@ sub import {
 sub gendump ($@) {
 	my $class=shift;
 
-	"#!/usr/bin/perl",
+	"#!/usr/local/bin/perl",
 	"#",
 	(map { "# $_" } @_),
 	"use IkiWiki::Setup::Standard {",

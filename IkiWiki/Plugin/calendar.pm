@@ -1,4 +1,4 @@
-#! /usr/bin/perl
+#! /usr/local/bin/perl
 # Copyright (c) 2006, 2007 Manoj Srivastava <srivasta@debian.org>
 #
 # This program is free software; you can redistribute it and/or modify

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # This plugin adds a "Diff" button to the page edit form.
 package IkiWiki::Plugin::editdiff;
 

@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki setup automator -- blog version.
 # 
 # This setup file causes ikiwiki to create a wiki, containing a blog,

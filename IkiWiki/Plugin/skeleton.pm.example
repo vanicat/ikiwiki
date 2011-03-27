@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # Ikiwiki skeleton plugin. Replace "skeleton" with the name of your plugin
 # in the lines below, remove hooks you don't use, and flesh out the code to
 # make it do something.

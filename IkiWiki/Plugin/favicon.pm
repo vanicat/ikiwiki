@@ -1,4 +1,4 @@
-#!/usr/bin/perl
+#!/usr/local/bin/perl
 # favicon plugin.
 
 package IkiWiki::Plugin::favicon;
