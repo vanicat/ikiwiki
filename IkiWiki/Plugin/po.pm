@@ -66,8 +66,11 @@ sub import {
 		inject(name => "IkiWiki::urlto", call => \&myurlto);
 		$origsubs{'cgiurl'}=\&IkiWiki::cgiurl;
 		inject(name => "IkiWiki::cgiurl", call => \&mycgiurl);
-		$origsubs{'rootpage'}=\&IkiWiki::rootpage;
-		inject(name => "IkiWiki::rootpage", call => \&myrootpage);
+		if (IkiWiki->can('rootpage')) {
+			$origsubs{'rootpage'}=\&IkiWiki::rootpage;
+			inject(name => "IkiWiki::rootpage", call => \&myrootpage)
+				if defined $origsubs{'rootpage'};
+		}
 		$origsubs{'isselflink'}=\&IkiWiki::isselflink;
 		inject(name => "IkiWiki::isselflink", call => \&myisselflink);
 	}
@@ -621,20 +624,24 @@ sub mybeautify_urlpath ($) {
 	return $res;
 }
 
-sub mytargetpage ($$) {
+sub mytargetpage ($$;$) {
 	my $page=shift;
 	my $ext=shift;
+	my $filename=shift;
 
 	if (istranslation($page) || istranslatable($page)) {
 		my ($masterpage, $lang) = (masterpage($page), lang($page));
-		if (! $config{usedirs} || $masterpage eq 'index') {
+		if (defined $filename) {
+			return $masterpage . "/" . $filename . "." . $lang . "." . $ext;
+		}
+		elsif (! $config{usedirs} || $masterpage eq 'index') {
 			return $masterpage . "." . $lang . "." . $ext;
 		}
 		else {
 			return $masterpage . "/index." . $lang . "." . $ext;
 		}
 	}
-	return $origsubs{'targetpage'}->($page, $ext);
+	return $origsubs{'targetpage'}->($page, $ext, $filename);
 }
 
 sub myurlto ($;$$) {

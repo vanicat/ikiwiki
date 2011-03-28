@@ -755,10 +755,8 @@ sub previewcomment ($$$) {
 sub commentsshown ($) {
 	my $page=shift;
 
-	return ! pagespec_match($page, "comment(*)",
-	                        location => $page) &&
-	       pagespec_match($page, $config{comments_pagespec},
-	                      location => $page);
+	return pagespec_match($page, $config{comments_pagespec},
+		location => $page);
 }
 
 sub commentsopen ($) {
@@ -785,7 +783,7 @@ sub pagetemplate (@) {
 		my $comments = undef;
 		if ($shown) {
 			$comments = IkiWiki::preprocess_inline(
-				pages => "comment($page)",
+				pages => "comment($page) and !comment($page/*)",
 				template => 'comment',
 				show => 0,
 				reverse => 'yes',
@@ -957,8 +955,7 @@ sub match_comment ($$;@) {
 		}
 	}
 
-	return match_glob($page, "$glob/*", internal => 1, @_) &&
-		! match_glob($page, "$glob/*/*", internal => 1, @_);
+	return match_glob($page, "$glob/*", internal => 1, @_);
 }
 
 sub match_comment_pending ($$;@) {
@@ -973,8 +970,7 @@ sub match_comment_pending ($$;@) {
 		return IkiWiki::FailReason->new("$page is not a pending comment");
 	}
 
-	return match_glob($page, "$glob/*", internal => 1, @_) &&
-		! match_glob($page, "$glob/*/*", internal => 1, @_);
+	return match_glob($page, "$glob/*", internal => 1, @_);
 }
 
 1

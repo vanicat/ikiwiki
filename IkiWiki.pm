@@ -336,6 +336,14 @@ sub getsetup () {
 		safe => 0, # paranoia
 		rebuild => 0,
 	},
+	timezone => {
+		type => "string", 
+		default => "",
+		example => "US/Eastern",
+		description => "time zone name",
+		safe => 1,
+		rebuild => 1,
+	},
 	include => {
 		type => "string",
 		default => undef,
@@ -477,7 +485,7 @@ sub getsetup () {
 	},
 	setuptype => {
 		type => "internal",
-		default => "Standard",
+		default => "Yaml",
 		description => "perl class to use to dump setup file",
 		safe => 0,
 		rebuild => 0,
@@ -497,7 +505,6 @@ sub defaultconfig () {
 	foreach my $key (keys %s) {
 		push @ret, $key, $s{$key}->{default};
 	}
-	use Data::Dumper;
 	return @ret;
 }
 
@@ -528,6 +535,12 @@ sub checkconfig () {
 		foreach my $val (keys %{$config{ENV}}) {
 			$ENV{$val}=$config{ENV}{$val};
 		}
+	}
+	if (defined $config{timezone} && length $config{timezone}) {
+		$ENV{TZ}=$config{timezone};
+	}
+	else {
+		$config{timezone}=$ENV{TZ};
 	}
 
 	if ($config{w3mmode}) {

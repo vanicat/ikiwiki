@@ -1,3 +1,16 @@
+ikiwiki (3.20110328) unstable; urgency=low
+
+  * Yaml formatted setup files are now produced by default.
+    (Perl formatted setup files can still be used.)
+  * Add timezone setting in setup file. This alows time zone to be configured
+    via the web.
+  * comment: Better fix to avoid showing comments of subpages, while
+    not breaking manual inlining of comments.
+  * meta: Security fix; don't allow alternative stylesheets to be added
+    on pages where the htmlscrubber is enabled.
+
+ -- Joey Hess <joeyh@debian.org>  Mon, 28 Mar 2011 12:23:26 -0400
+
 ikiwiki (3.20110321) unstable; urgency=low
 
   * comment: Don't show comments of subpages on parent pages.
